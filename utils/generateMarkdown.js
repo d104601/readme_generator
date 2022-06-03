@@ -50,27 +50,27 @@ function createIndex(data)
   var table = "## Table of Contents \n";
   if(data.description != "")
   {
-    table += "[Description](#Description) \n";
+    table += "- [Description](#Description) \n";
   }
   if(data.installation != "")
   {
-    table += "[Installation](#Installation) \n";
+    table += "- [Installation](#Installation) \n";
   }
   if(data.usage != "")
   {
-    table += "[Usage](#Usage) \n";
+    table += "- [Usage](#Usage) \n";
   }
   if(data.contribution != "")
   {
-    table += "[Contribution](#Contribution) \n";
+    table += "- [Contribution](#Contribution) \n";
   }
   if(data.test != "")
   {
-    table += "[Test](#Test) \n";
+    table += "- [Test](#Test) \n";
   }
   if(data.github != "" || data.email != "")
   {
-    table += "[Additional](#Additional) \n";
+    table += "- [Additional](#Additional) \n";
   }
 
   return table;

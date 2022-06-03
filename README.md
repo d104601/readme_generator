@@ -1,15 +1,15 @@
-# Test README
+# test readme
 
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents 
-[Description](#Description) 
-[Installation](#Installation) 
-[Usage](#Usage) 
-[Contribution](#Contribution) 
-[Test](#Test) 
-[Additional](#Additional)
+- [Description](#Description) 
+- [Installation](#Installation) 
+- [Usage](#Usage) 
+- [Contribution](#Contribution) 
+- [Test](#Test) 
+- [Additional](#Additional) 
 
 ## Description 
 test description
@@ -24,7 +24,7 @@ test usage
 test contribution
 
 ## Test 
-sample test
+test test
 
 ## Additional 
 - Github: [d104601](https://github.com/d104601)
