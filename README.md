@@ -25,7 +25,7 @@ node index.js
 ```
 
 ## Demonstration of App
-![sample]
+![sample]https://github.com/d104601/readme_generator/blob/main/demo.webp
 
 ## Additional 
 - Github: [d104601](https://github.com/d104601)
