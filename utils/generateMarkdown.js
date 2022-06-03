@@ -44,6 +44,38 @@ function renderLicenseSection(license) {
   return badge + link;
 }
 
+// function to creating table of contents
+function createIndex(data)
+{
+  var table = "## Table of Contents \n";
+  if(data.description != "")
+  {
+    table += "[Description](#Description) \n";
+  }
+  if(data.installation != "")
+  {
+    table += "[Installation](#Installation) \n";
+  }
+  if(data.usage != "")
+  {
+    table += "[Usage](#Usage) \n";
+  }
+  if(data.contribution != "")
+  {
+    table += "[Contribution](#Contribution) \n";
+  }
+  if(data.test != "")
+  {
+    table += "[Test](#Test) \n";
+  }
+  if(data.github != "" || data.email != "")
+  {
+    table += "[Additional](#Additional) \n";
+  }
+
+  return table;
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const {
@@ -52,6 +84,7 @@ function generateMarkdown(data) {
     installation,
     usage,
     contribution,
+    test,
     license,
     github,
     email
@@ -71,6 +104,8 @@ function generateMarkdown(data) {
     content += "## License \n" + badge + "\n\n";
   }
 
+  content += createIndex(data) + "\n";
+
   if(description != "")
   {
       content += "## Description \n" + description + "\n\n";
@@ -86,20 +121,28 @@ function generateMarkdown(data) {
     content += "## Usage \n" + usage + "\n\n";
   }
 
-  if(github != "" && email != "")
+  if(contribution != "")
+  {
+    content += "## Contribution \n" + contribution + "\n\n";
+  }
+
+  if(test != "")
+  {
+    content += "## Test \n" + test + "\n\n";
+  }
+
+  if(github != "" || email != "")
   {
     content += "## Additional \n";
     if(github != "")
     {
-      content += "- Github: [" + github + "](https://github.com/" + github + ")";
+      content += "- Github: [" + github + "](https://github.com/" + github + ")\n";
     }
     if(email != "")
     {
       content += "- Email: " + email;
     }
   }
-
-  if(contribution)
   
   return content;
 }
