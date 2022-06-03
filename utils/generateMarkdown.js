@@ -3,15 +3,15 @@
 function renderLicenseBadge(license) {
   switch(license){
     case "MIT":
-      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
+      return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
     case "Apache":
-      return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
+      return "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
     case "BSD":
-      return "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]";
+      return "![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)]";
     case "Creative Commons":
-      return "[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)]";
+      return "![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)";
     case "GNU":
-      return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]";
+      return "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
     default:
       return "";
   }
