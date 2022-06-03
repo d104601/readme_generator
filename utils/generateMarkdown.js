@@ -22,15 +22,15 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch(license){
     case "MIT":
-      return "";
+      return "(https://opensource.org/licenses/MIT)";
     case "Apache":
-      return "";
+      return "(https://opensource.org/licenses/Apache-2.0)";
     case "BSD":
-      return "";
+      return "(https://opensource.org/licenses/BSD-3-Clause)";
     case "Creative Commons":
-      return "";
+      return "(http://creativecommons.org/publicdomain/zero/1.0/)";
     case "GNU":
-      return "";
+      return "(https://www.gnu.org/licenses/gpl-3.0)";
     default:
       return "";
   }
