@@ -30,19 +30,19 @@ function generateMarkdown(data) {
   
   if(title != "")
   {
-    content += "#" + title + "\n\n";
+    content += "# " + title + "\n\n";
   }
   if(description != "")
   {
-      content += "##Description \n" + description + "\n\n";
+      content += "## Description \n" + description + "\n\n";
   }
   if(installation != "")
   {
-    content += "##Installation \n" + installation + "\n\n";
+    content += "## Installation \n" + installation + "\n\n";
   }
   if(usage != "")
   {
-    content += "##Usage \n" + usage + "\n\n";
+    content += "## Usage \n" + usage + "\n\n";
   }
   
   return content;
