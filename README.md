@@ -14,15 +14,11 @@ README generator with command line interface for developers using node.js. The b
 
 ## Installation 
 Download all files in the repository. This application requires "Node.js" and "inquirer" package. To install inquirer, please enter following in same directory:
-'''
-npm install inquirer
-'''
+> npm install inquirer
 
 ## Usage 
 Type following in command line:
-'''
-node index.js
-'''
+> node index.js
 
 ## Additional 
 - Github: [d104601](https://github.com/d104601)
