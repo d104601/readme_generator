@@ -1,11 +1,14 @@
-# Test title
+# test title
+
+## License 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## Description 
-Test description
+test description
 
 ## Installation 
-Test installation
+test installation
 
 ## Usage 
-Test usage
+test usage
 

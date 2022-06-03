@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
                 message: fileName + " already exist in current directory. Want to overwrite?"
             })
             .then((answers) => {
-                if(answers){
+                if(answers.overwrite){
                     write(fileName, data);
                 }
                 else
