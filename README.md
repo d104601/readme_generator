@@ -1,4 +1,4 @@
-# test readme
+# README Generator
 
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,24 +7,22 @@
 - [Description](#Description) 
 - [Installation](#Installation) 
 - [Usage](#Usage) 
-- [Contribution](#Contribution) 
-- [Test](#Test) 
 - [Additional](#Additional) 
 
 ## Description 
-test description
+README generator with command line interface for developers using node.js. The base of this README.md is also generated with this application.
 
 ## Installation 
-test installation
+Download all files in the repository. This application requires "Node.js" and "inquirer" package. To install inquirer, please enter following in same directory:
+'''
+npm install inquirer
+'''
 
 ## Usage 
-test usage
-
-## Contribution 
-test contribution
-
-## Test 
-test test
+Type following in command line:
+'''
+node index.js
+'''
 
 ## Additional 
 - Github: [d104601](https://github.com/d104601)
