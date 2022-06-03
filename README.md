@@ -10,7 +10,7 @@
 - [Additional](#Additional) 
 
 ## Description 
-README generator with command line interface for developers using node.js. The base of this README.md is also generated with this application. Please see Sample_Readme.md for generated sample.
+README generator with command line interface for developers using node.js. The base of this README.md is also generated with this application. Please see "Sample_Readme.md" for generated sample.
 
 ## Installation 
 Download all files in the repository. This application requires "Node.js" and "inquirer" package. To install inquirer, please enter following in same directory:
@@ -23,6 +23,9 @@ Type following in command line:
 ```
 node index.js
 ```
+
+## Demonstration of App
+![sample]
 
 ## Additional 
 - Github: [d104601](https://github.com/d104601)
