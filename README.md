@@ -25,7 +25,7 @@ node index.js
 ```
 
 ## Demonstration of App
-![sample]https://github.com/d104601/readme_generator/blob/main/demo.gif
+![sample](https://github.com/d104601/readme_generator/blob/main/demo.gif)
 
 ## Additional 
 - Github: [d104601](https://github.com/d104601)
