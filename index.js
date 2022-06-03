@@ -41,14 +41,31 @@ const questions = [
     },
 
     // test instruction
-
+    {
+        type: "input",
+        name: "test",
+        message: "Test instruction?:"
+    },
 
     // license selection
     {
         type: "list",
         name: "license",
         message: "Please select license",
-        choices: ["MIT", "Apache", "GNU", "None"]
+        choices: ["MIT", "Apache", "BSD", "Creative Commons", "GNU", "None"]
+    },
+
+    // user info
+    {
+        type: "input",
+        name: "github",
+        message: "Your github username?:"
+    },
+
+    {
+        type: "input",
+        name: "email",
+        message: "Your email address?:"
     }
 ];
 
